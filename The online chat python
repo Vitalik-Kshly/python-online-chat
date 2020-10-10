@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-10T10:09:31.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.234" etag="IQ1ZqVcVrvBszq2fnTFq" version="13.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-10T14:29:37.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.234" etag="cQ2hHaouNEfuHfUfv13Z" version="13.7.9" type="github">
   <diagram id="npOGX5z4g7c2RHxXzeNq" name="Page-1">
     <mxGraphModel dx="1288" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -16,22 +16,13 @@
         <mxCell id="AYm0c7sSSbWUFIypWYVO-39" value="Message" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;strokeWidth=1;fontSize=14;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="370" y="130" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AYm0c7sSSbWUFIypWYVO-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="940" y="510" width="380" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="AYm0c7sSSbWUFIypWYVO-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-16">
-          <mxGeometry width="380" height="290.00000000000006" as="geometry" />
-        </mxCell>
-        <mxCell id="AYm0c7sSSbWUFIypWYVO-15" value="&lt;h1&gt;Interface&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-16">
-          <mxGeometry width="380" height="290.00000000000006" as="geometry" />
-        </mxCell>
         <mxCell id="AYm0c7sSSbWUFIypWYVO-19" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1540" y="220" width="280" height="170" as="geometry" />
         </mxCell>
         <mxCell id="AYm0c7sSSbWUFIypWYVO-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-19">
           <mxGeometry width="280" height="170.00000000000003" as="geometry" />
         </mxCell>
-        <mxCell id="AYm0c7sSSbWUFIypWYVO-5" value="&lt;h1&gt;Client&lt;/h1&gt;&lt;div&gt;name str // Name wich everyone would see&lt;/div&gt;&lt;div&gt;loggedIn bool // Check is logged in or not&lt;/div&gt;&lt;div&gt;login str // Login for loggin in&lt;/div&gt;&lt;div&gt;password str // Password for loggin in&lt;/div&gt;&lt;div&gt;acceptMessage() // Accept data from server&lt;/div&gt;&lt;div&gt;send(str) // Send data to server&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-19">
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-5" value="&lt;h1&gt;Client&lt;/h1&gt;&lt;div&gt;name str // Name wich everyone would see&lt;/div&gt;&lt;div&gt;loggedIn bool // Check is logged in or not&lt;/div&gt;&lt;div&gt;login str // Login for loggin in&lt;/div&gt;&lt;div&gt;password str // Password for loggin in&lt;/div&gt;&lt;div&gt;acceptMessage() // Accept data from server&lt;/div&gt;&lt;div&gt;send(str) // Send data to server&lt;/div&gt;&lt;div&gt;messageLoader() // Load messages from server&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-19">
           <mxGeometry width="280" height="170.00000000000003" as="geometry" />
         </mxCell>
         <mxCell id="AYm0c7sSSbWUFIypWYVO-22" value="Your name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;strokeWidth=5;fontSize=17;" vertex="1" parent="1">
@@ -192,6 +183,60 @@
         </mxCell>
         <mxCell id="AYm0c7sSSbWUFIypWYVO-81" value="Interface" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=30;fontStyle=1;fontFamily=Times New Roman;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="70" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-84" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="940" y="510" width="380" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-16" value="" style="group" vertex="1" connectable="0" parent="AYm0c7sSSbWUFIypWYVO-84">
+          <mxGeometry width="380" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-16">
+          <mxGeometry width="380" height="290.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-15" value="&lt;h1&gt;Interface&lt;/h1&gt;&lt;div&gt;btnSend // Button to send message&lt;/div&gt;&lt;div&gt;scrollingMessanges // A field with scrollbar&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-16">
+          <mxGeometry width="380" height="290.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="840" y="60" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-86" value="" style="group" vertex="1" connectable="0" parent="AYm0c7sSSbWUFIypWYVO-85">
+          <mxGeometry width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-87" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-86">
+          <mxGeometry width="200" height="160.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-88" value="&lt;h1&gt;Login form&lt;/h1&gt;&lt;div&gt;Login field // Login&lt;/div&gt;&lt;div&gt;Password // Password&lt;/div&gt;&lt;div&gt;Button // Login&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-86">
+          <mxGeometry width="200" height="160.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-89" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1190" y="60" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-90" value="" style="group" vertex="1" connectable="0" parent="AYm0c7sSSbWUFIypWYVO-89">
+          <mxGeometry width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-90">
+          <mxGeometry width="200" height="160.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-92" value="&lt;h1&gt;Register form&lt;/h1&gt;&lt;div&gt;Name lield // User name&lt;/div&gt;&lt;div&gt;Login field // Login&lt;/div&gt;&lt;div&gt;Password // Password&lt;/div&gt;&lt;div&gt;Button // Register&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-90">
+          <mxGeometry width="200" height="160.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=30;" edge="1" parent="1" source="AYm0c7sSSbWUFIypWYVO-88" target="AYm0c7sSSbWUFIypWYVO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=30;" edge="1" parent="1" source="AYm0c7sSSbWUFIypWYVO-92" target="AYm0c7sSSbWUFIypWYVO-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-95" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1005" y="260" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-96" value="" style="group" vertex="1" connectable="0" parent="AYm0c7sSSbWUFIypWYVO-95">
+          <mxGeometry width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-97" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-96">
+          <mxGeometry width="250" height="160.00000000000003" as="geometry" />
+        </mxCell>
+        <mxCell id="AYm0c7sSSbWUFIypWYVO-98" value="&lt;h1&gt;LoginRegister&lt;/h1&gt;&lt;div&gt;checkInDB(str) bool // Check when register&lt;/div&gt;&lt;div&gt;tryToLogin(str, str) str // Check when login&lt;/div&gt;&lt;div&gt;addNewProfile(str, str) // Add a profile to DB&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="AYm0c7sSSbWUFIypWYVO-96">
+          <mxGeometry width="250" height="160.00000000000003" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
